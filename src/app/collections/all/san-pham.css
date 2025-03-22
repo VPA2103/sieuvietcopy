@@ -1,0 +1,431 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+#collection {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.columns-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Breadcrumb Styling */
+.breadcrumb {
+    display: block;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.breadcrumb ol {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.breadcrumb li {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #007bff;
+}
+
+.breadcrumb li a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.breadcrumb li a:hover {
+    color: #0056b3;
+}
+
+.breadcrumb li.active span {
+    color: #333;
+    font-weight: bold;
+}
+
+.breadcrumb li:not(:last-child)::after {
+    content: ">";
+    margin-left: 10px;
+    color: #6c757d;
+}
+
+/* General Layout */
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+/* Left Column */
+#left_column {
+    flex: 1;
+    max-width: 25%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.block.left-module {
+    margin-bottom: 20px;
+}
+
+.block.left-module .title_block {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block.left-module .title_block i {
+    font-size: 14px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+/* Tree Menu */
+.tree-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tree-menu > li {
+    margin-bottom: 10px;
+}
+
+.tree-menu > li > a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: color 0.3s ease;
+}
+
+.tree-menu > li > a:hover {
+    color: #0056b3;
+}
+
+.tree-menu ul {
+    margin-top: 5px;
+    padding-left: 15px;
+    list-style: none;
+}
+
+.tree-menu ul li a {
+    font-size: 13px;
+    color: #555;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.tree-menu ul li a:hover {
+    color: #333;
+}
+
+/* Filter Section */
+.layered {
+    margin-top: 20px;
+}
+
+.layered .layered_subtitle {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.layered-content {
+    margin-bottom: 15px;
+}
+
+.filter-brand, .filter-price, .filter-color, .filter-size {
+    list-style: none;
+    padding: 0;
+}
+
+.filter-brand li, .filter-price li, .filter-size li {
+    margin-bottom: 10px;
+}
+
+.filter-brand input[type="checkbox"],
+.filter-price input[type="checkbox"],
+.filter-size input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.filter-brand label, .filter-price label, .filter-size label {
+    font-size: 13px;
+    color: #555;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.filter-color li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.filter-color label {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.filter-color label:hover {
+    border-color: #007bff;
+}
+
+/* Right Column */
+#center_column {
+    flex: 3;
+    max-width: 75%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Product List */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product .product-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.product .product-info {
+    padding: 10px;
+}
+
+.product .product-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product .box-price {
+    font-size: 14px;
+    color: #555;
+}
+
+.product .box-price .product-price {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.product .box-price .old-price {
+    text-decoration: line-through;
+    margin-left: 10px;
+    color: #999;
+}
+
+/* Styling for the page heading */
+.page-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.page-heading-title {
+    display: inline-block;
+    padding: 5px 10px;
+    border-bottom: 2px solid #007bff;
+}
+
+/* Styling for the display product options */
+.display-product-option {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.display-product-option li {
+    cursor: pointer;
+    font-size: 14px;
+    color: #555;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.display-product-option li.selected {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.display-product-option li:hover {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+/* Styling for the browse tags */
+.browse-tags {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.browse-tags span {
+    font-weight: bold;
+    color: #333;
+}
+
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-dropdown__select {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #555;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.custom-dropdown__select:hover {
+    border-color: #007bff;
+}
+
+.custom-dropdown__select--white {
+    background-color: #f9f9f9;
+}
+
+/* Pagination Container */
+.content_sortPagiBar.pagi {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Pagination List */
+.pagination {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 5px;
+}
+
+/* Pagination Items */
+.pagination li {
+    display: inline-block;
+}
+
+.pagination li a,
+.pagination li span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Active Page */
+.pagination li.active span {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+    font-weight: bold;
+}
+
+/* Disabled Previous/Next */
+.pagination li.disabled span {
+    color: #ccc;
+    border-color: #ddd;
+    cursor: not-allowed;
+}
+
+/* Hover Effect */
+.pagination li a:hover {
+    background-color: #f1f1f1;
+    color: #0056b3;
+    border-color: #ccc;
+}
+
+/* Ellipsis */
+.pagination li span {
+    cursor: default;
+}
+
+/* Previous/Next Arrows */
+.pagination li a i {
+    font-size: 12px;
+}
+
+.swiper {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-wrapper {
+  display: flex;
+}

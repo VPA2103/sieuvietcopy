@@ -1,0 +1,84 @@
+/* Layout Page */
+#layout-page {
+  background-color: #f9f9f9; /* Màu nền nhẹ */
+  padding: 20px; /* Khoảng cách bên trong */
+  border-radius: 8px; /* Bo góc */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+  font-family: Arial, sans-serif; /* Font chữ dễ đọc */
+  color: #333; /* Màu chữ */
+  line-height: 1.8; /* Khoảng cách dòng */
+}
+
+/* Tiêu đề chính */
+#layout-page h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff; /* Màu xanh nổi bật */
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+/* Tiêu đề phụ */
+#layout-page h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  border-left: 4px solid #007bff; /* Đường viền trái nổi bật */
+  padding-left: 8px;
+}
+
+/* Đoạn văn bản */
+#layout-page p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 16px;
+  text-align: justify; /* Căn đều văn bản */
+}
+
+/* Danh sách */
+#layout-page ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+#layout-page ul li {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+#layout-page ul li strong {
+  color: #007bff; /* Làm nổi bật các từ khóa */
+}
+
+/* Hình ảnh */
+#layout-page img {
+  max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng container */
+  height: auto;
+  margin: 20px 0;
+  border-radius: 8px; /* Bo góc hình ảnh */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #layout-page {
+    padding: 16px;
+  }
+
+  #layout-page h1 {
+    font-size: 20px;
+  }
+
+  #layout-page h2 {
+    font-size: 18px;
+  }
+
+  #layout-page p,
+  #layout-page ul li {
+    font-size: 14px;
+  }
+}
