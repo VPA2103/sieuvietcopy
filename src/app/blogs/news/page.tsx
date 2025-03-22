@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import './news.css'
+import Image from 'next/image'
 
 export default function News() {
   return (
@@ -104,7 +105,7 @@ export default function News() {
                         <li>
                           <div className='post-thumb'>
                             <Link href='/blogs/news/thue-may-photocopy-gia-re-tai-dong-nai-binh-duong-tphcm'>
-                              <img
+                              <Image fill
                                 src='//file.hstatic.net/200000202353/article/125_2_ec24a62132af4cf3984d78b901c0/2bc2_grande.jpg'
                                 alt='Thuê máy Photocopy giá rẻ tại Đồng Nai, Bình Dương, TPHCM'
                               />
@@ -131,7 +132,7 @@ export default function News() {
                         <li>
                           <div className='post-thumb'>
                             <Link href='/blogs/news/cho-thue-may-photocopy-tai-dong-nai'>
-                              <img
+                              <Image fill
                                 src='//file.hstatic.net/200000202353/article/cho_thue_may_photocopy_3870fd5a879/44933842e90cc7b36a37a_grande.png'
                                 alt='Cho thuê máy photocopy tại Đồng Nai'
                               />
@@ -157,7 +158,7 @@ export default function News() {
                         <li>
                           <div className='post-thumb'>
                             <Link href='/blogs/news/dich-vu-cho-thue-may-photocopy-tot-nhat-dong-nai'>
-                              <img
+                              <Image fill
                                 src='//file.hstatic.net/200000202353/article/dc249aafd80a1d54441b_7ea6641538ca4/9cda06004e9006cca9e_grande.jpg'
                                 alt='Dịch vụ cho thuê máy photocopy tốt nhất Đồng Nai'
                               />
@@ -201,7 +202,7 @@ export default function News() {
                       <div className='col-sm-5'>
                         <div className='entry-thumb image-hover2 text-center'>
                           <Link href='/blogs/news/thue-may-photocopy-gia-re-tai-dong-nai-binh-duong-tphcm'>
-                            <img
+                            <Image fill
                               src='//file.hstatic.net/200000202353/article/125_2_ec24a62132af4cf3984d78b901c0/2bc2_grande.jpg'
                               alt='Thuê máy Photocopy giá rẻ tại Đồng Nai, Bình Dương, TPHCM'
                             />
@@ -261,7 +262,7 @@ export default function News() {
                       <div className='col-sm-5'>
                         <div className='entry-thumb image-hover2 text-center'>
                           <Link href='/blogs/news/cho-thue-may-photocopy-tai-dong-nai'>
-                            <img
+                            <Image fill
                               src='//file.hstatic.net/200000202353/article/cho_thue_may_photocopy_3870fd5a879/44933842e90cc7b36a37a_grande.png'
                               alt='Cho thuê máy photocopy tại Đồng Nai'
                             />
@@ -320,7 +321,7 @@ export default function News() {
                       <div className='col-sm-5'>
                         <div className='entry-thumb image-hover2 text-center'>
                           <Link href='/blogs/news/dich-vu-cho-thue-may-photocopy-tot-nhat-dong-nai'>
-                            <img
+                            <Image fill
                               src='//file.hstatic.net/200000202353/article/dc249aafd80a1d54441b_7ea6641538ca4/9cda06004e9006cca9e_grande.jpg'
                               alt='Dịch vụ cho thuê máy photocopy tốt nhất Đồng Nai'
                             />

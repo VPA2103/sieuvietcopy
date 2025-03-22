@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import './san-pham.css'
+import Image from 'next/image';
 
 
 
@@ -957,7 +958,7 @@ export default function Product() {
                     </div>
 
                     <ul className="row product-list grid style2{{filter proCcts">
-                      ' '{' '}
+                      {/* ' '{' '} */}
                       <li className="col-md-4 col-sm-6 col-xs-12 product ">
                         <div className="product-container">
                           <div className="product-image">
@@ -965,7 +966,7 @@ export default function Product() {
                               href="/products/set-quet-td-muc-trong-hub-muc-xerox-d95-125"
                               title="SET QUÉT TD MỰC TRONG HUB MỰC XEROX D95/125"
                             >
-                              <img
+                              <Image fill
                                 alt="SET QUÉT TD MỰC TRONG HUB MỰC XEROX D95/125"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -1036,7 +1037,7 @@ export default function Product() {
                               href="/products/cum-man-hinh-fujifilm-apeos-2560-3560-c2060-c2560"
                               title="CỤM MÀN HÌNH FUJIFILM APEOS 2560/3560/C2060/C2560"
                             >
-                              <img
+                              <Image fill
                                 alt="CỤM MÀN HÌNH FUJIFILM APEOS 2560/3560/C2060/C2560"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -1111,7 +1112,7 @@ export default function Product() {
                               href="/products/lph-fujifilm-apeos-c3070-4570-5570-chinh-hang-017k05460"
                               title="LPH FUJIFILM APEOS C3070/4570/5570 - CHÍNH HÃNG-017K05460"
                             >
-                              <img
+                              <Image fill
                                 alt="LPH FUJIFILM APEOS C3070/4570/5570 - CHÍNH HÃNG-017K05460"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -1186,7 +1187,7 @@ export default function Product() {
                               href="/products/chip-drum-xerox-den-700-c75-j75-duk-na"
                               title="CHIP DRUM XEROX ĐEN 700/C75/J75 - DUK-NA"
                             >
-                              <img
+                              <Image fill
                                 alt="CHIP DRUM XEROX ĐEN 700/C75/J75 - DUK-NA"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -1257,7 +1258,7 @@ export default function Product() {
                               href="/products/chip-drum-xerox-mau-700-c75-j75-du-cmy-na"
                               title="CHIP DRUM XEROX MÀU 700/C75/J75 - DU CMY-NA"
                             >
-                              <img
+                              <Image fill
                                 alt="CHIP DRUM XEROX MÀU 700/C75/J75 - DU CMY-NA"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -1328,7 +1329,7 @@ export default function Product() {
                               href="/products/chip-muc-vang-xerox-c700-c75-j75-na"
                               title="CHIP MỰC VÀNG XEROX C700/C75/J75-NA"
                             >
-                              <img
+                              <Image fill
                                 alt="CHIP MỰC VÀNG XEROX C700/C75/J75-NA"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -1399,7 +1400,7 @@ export default function Product() {
                               href="/products/chip-muc-hong-xerox-c700-c75-j75-na"
                               title="CHIP MỰC HỒNG XEROX C700/C75/J75-NA"
                             >
-                              <img
+                              <Image fill
                                 alt="CHIP MỰC HỒNG XEROX C700/C75/J75-NA"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -1470,7 +1471,7 @@ export default function Product() {
                               href="/products/chip-muc-xanh-xerox-c700-c75-j75-na"
                               title="CHIP MỰC XANH XEROX C700/C75/J75-NA"
                             >
-                              <img
+                              <Image fill
                                 alt="CHIP MỰC XANH XEROX C700/C75/J75-NA"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -1541,7 +1542,7 @@ export default function Product() {
                               href="/products/chip-muc-den-xerox-c700-c75-j75-na"
                               title="CHIP MỰC ĐEN XEROX C700/C75/J75-NA"
                             >
-                              <img
+                              <Image fill
                                 alt="CHIP MỰC ĐEN XEROX C700/C75/J75-NA"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -1612,7 +1613,7 @@ export default function Product() {
                               href="/products/bo-nhong-quay-hop-dan-muc-thai-xerox-4570-5570-3070-3372"
                               title="BỘ NHÔNG QUAY HỘP DẪN MỰC THẢI XEROX 4570/5570/3070/3372"
                             >
-                              <img
+                              <Image fill
                                 alt="BỘ NHÔNG QUAY HỘP DẪN MỰC THẢI XEROX 4570/5570/3070/3372"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -1687,7 +1688,7 @@ export default function Product() {
                               href="/products/truc-sang-anh-2nd-roller-xerox-4471-4473-4570-5570-859k03831"
                               title="TRỤC SANG ẢNH 2nd ROLLER XEROX 4471/4473/4570/5570 - 859K03831"
                             >
-                              <img
+                              <Image fill
                                 alt="TRỤC SANG ẢNH 2nd ROLLER XEROX 4471/4473/4570/5570 - 859K03831"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -1762,7 +1763,7 @@ export default function Product() {
                               href="/products/truc-sang-anh-2nd-roller-xerox-mau-2275-4475-7845-859k03831"
                               title="TRỤC SANG ẢNH 2nd ROLLER XEROX MÀU 2275/4475/7845 -859K03831"
                             >
-                              <img
+                              <Image fill
                                 alt="TRỤC SANG ẢNH 2nd ROLLER XEROX MÀU 2275/4475/7845 -859K03831"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -1837,7 +1838,7 @@ export default function Product() {
                               href="/products/cum-dong-bo-xerox-vi-2271-4471-4570-4473-859k03317"
                               title="CỤM ĐỒNG BỘ XEROX VI 2271/4471/4570/4473 - 859K03317"
                             >
-                              <img
+                              <Image fill
                                 alt="CỤM ĐỒNG BỘ XEROX VI 2271/4471/4570/4473 - 859K03317"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -1912,7 +1913,7 @@ export default function Product() {
                               href="/products/motor-quay-drum-xerox-v80-180-2100-3100"
                               title="MOTOR QUAY DRUM XEROX V80/180/2100/3100"
                             >
-                              <img
+                              <Image fill
                                 alt="MOTOR QUAY DRUM XEROX V80/180/2100/3100"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -1983,7 +1984,7 @@ export default function Product() {
                               href="/products/cum-motor-say-xerox-b9100-b9136-605k93790"
                               title="CỤM MOTOR SẤY XEROX B9100/B9136 - 605K93790"
                             >
-                              <img
+                              <Image fill
                                 alt="CỤM MOTOR SẤY XEROX B9100/B9136 - 605K93790"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -2054,7 +2055,7 @@ export default function Product() {
                               href="/products/fiery-server-may-xerox-v80-lon"
                               title="FIERY SERVER MÁY XEROX V80 - LỚN"
                             >
-                              <img
+                              <Image fill
                                 alt="FIERY SERVER MÁY XEROX V80 - LỚN"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -2125,7 +2126,7 @@ export default function Product() {
                               href="/products/fiery-server-may-xerox-c700i-lon"
                               title="FIERY SERVER MÁY XEROX C700I - LỚN"
                             >
-                              <img
+                              <Image fill
                                 alt="FIERY SERVER MÁY XEROX C700I - LỚN"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -2196,7 +2197,7 @@ export default function Product() {
                               href="/products/board-scan-iit-xerox-v-2275-3375-4475-5575"
                               title="BOARD SCAN IIT XEROX V 2275/3375/4475/5575"
                             >
-                              <img
+                              <Image fill
                                 alt="BOARD SCAN IIT XEROX V 2275/3375/4475/5575"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -2267,7 +2268,7 @@ export default function Product() {
                               href="/products/cum-gat-bang-tai-xerox-v80-180-2100-3100-chinh-hang-042k94710"
                               title="CỤM GẠT BĂNG TẢI XEROX V80/180/2100/3100 CHÍNH HÃNG-042K94710"
                             >
-                              <img
+                              <Image fill
                                 alt="CỤM GẠT BĂNG TẢI XEROX V80/180/2100/3100 CHÍNH HÃNG-042K94710"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -2342,7 +2343,7 @@ export default function Product() {
                               href="/products/gat-bang-tai-xerox-vi-vii-2271-3373-4570-5570-chinh-hang"
                               title="GẠT BĂNG TẢI XEROX VI/VII 2271/3373/4570/5570 - CHÍNH HÃNG"
                             >
-                              <img
+                              <Image fill
                                 alt="GẠT BĂNG TẢI XEROX VI/VII 2271/3373/4570/5570 - CHÍNH HÃNG"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -2417,7 +2418,7 @@ export default function Product() {
                               href="/products/truc-sang-anh-2nd-xerox-v-3065-2560-c3060-chinh-hang-019k16290"
                               title="TRỤC SANG ẢNH 2ND XEROX V 3065/2560/C3060 - CHÍNH HÃNG - 019k16290"
                             >
-                              <img
+                              <Image fill
                                 alt="TRỤC SANG ẢNH 2ND XEROX V 3065/2560/C3060 - CHÍNH HÃNG - 019k16290"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -2492,7 +2493,7 @@ export default function Product() {
                               href="/products/khoi-say-xerox-4070-5070-nhap-khau-japan"
                               title="KHỐI SẤY XEROX 4070/5070 - NHẬP KHẨU - JAPAN"
                             >
-                              <img
+                              <Image fill
                                 alt="KHỐI SẤY XEROX 4070/5070 - NHẬP KHẨU - JAPAN"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -2565,7 +2566,7 @@ export default function Product() {
                               href="/products/mieng-siu-tepxlon-chiu-nhiet-khoi-say-xerox-v-2275-4475-vi-3371-4570-5570-9-lo"
                               title="MIẾNG SIU TEPXLON CHỊU NHIỆT KHỐI SẤY XEROX V 2275/4475/VI 3371/4570/5570 - 9 LỖ"
                             >
-                              <img
+                              <Image fill
                                 alt="MIẾNG SIU TEPXLON CHỊU NHIỆT KHỐI SẤY XEROX V 2275/4475/VI 3371/4570/5570 - 9 LỖ"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -2640,7 +2641,7 @@ export default function Product() {
                               href="/products/truc-ep-xerox-mau-v80-180-2100-3100-chinh-hang-059k81320"
                               title="TRỤC ÉP XEROX MÀU V80/180/2100/3100 - CHÍNH HÃNG - 059k81320"
                             >
-                              <img
+                              <Image fill
                                 alt="TRỤC ÉP XEROX MÀU V80/180/2100/3100 - CHÍNH HÃNG - 059k81320"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -2715,7 +2716,7 @@ export default function Product() {
                               href="/products/truc-say-xerox-v2060-3065-2263-2265-7035-7030-chinh-hang-ko-bac-dan"
                               title="TRỤC SẤY XEROX V2060/3065/2263/2265/7035/7030 - CHÍNH HÃNG - KO BẠC ĐẠN"
                             >
-                              <img
+                              <Image fill
                                 alt="TRỤC SẤY XEROX V2060/3065/2263/2265/7035/7030 - CHÍNH HÃNG - KO BẠC ĐẠN"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -2790,7 +2791,7 @@ export default function Product() {
                               href="/products/khoi-drum-xerox-b9100-b9136-nhap-khau"
                               title="KHỐI DRUM XEROX B9100/B9136 -NHẬP KHẨU"
                             >
-                              <img
+                              <Image fill
                                 alt="KHỐI DRUM XEROX B9100/B9136 -NHẬP KHẨU"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -2861,7 +2862,7 @@ export default function Product() {
                               href="/products/sac-drum-xerox-mau-iv-2263-2265-doi-4"
                               title="SẠC DRUM XEROX MÀU IV 2263/2265 - ĐỜI 4"
                             >
-                              <img
+                              <Image fill
                                 alt="SẠC DRUM XEROX MÀU IV 2263/2265 - ĐỜI 4"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -2932,7 +2933,7 @@ export default function Product() {
                               href="/products/may-fujixerox-apeosport-4570-5570"
                               title="MÁY FUJIXEROX APEOSPORT 4570/5570"
                             >
-                              <img
+                              <Image fill
                                 alt="MÁY FUJIXEROX APEOSPORT 4570/5570"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -3003,7 +3004,7 @@ export default function Product() {
                               href="/products/nhua-huong-giay-dao-mat-inventer-duplex-xerox-6080-7080-054k32798"
                               title="NHỰA HƯỚNG GIẤY ĐẢO MẶT INVENTER DUPLEX XEROX 6080/7080 - 054K32798"
                             >
-                              <img
+                              <Image fill
                                 alt="NHỰA HƯỚNG GIẤY ĐẢO MẶT INVENTER DUPLEX XEROX 6080/7080 - 054K32798"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
@@ -3078,7 +3079,7 @@ export default function Product() {
                               href="/products/nap-day-adf-xerox-vi-2271-3371-4473-5573"
                               title="NẮP ĐẬY ADF XEROX VI 2271/3371/4473/5573"
                             >
-                              <img
+                              <Image fill
                                 alt="NẮP ĐẬY ADF XEROX VI 2271/3371/4473/5573"
                                 src="//hstatic.net/0/0/global/design/theme-default/no-image.png"
                               />
