@@ -6,7 +6,7 @@ import './index.css'
 export default function AboutUs() {
   return (
     <>
-      <div className="col-md-9 col-sm-9 col-xs-12" id="layout-page">
+      <div className='col-md-9 col-sm-9 col-xs-1' id='layout-pag'>
         <h1>Giới thiệu</h1>
         <h1>Về chúng tôi - Công ty TNHH Máy Văn Phòng Siêu Việt</h1>
         <p>
