@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -10,13 +11,13 @@ const Footer = () => {
             <div className="row">
               <div className="col-sm-3">
                 <div className="footer-logo text-left">
-                  <a href="/">
+                  <Link href="/">
                     <img
                       src="//theme.hstatic.net/200000202353/1000633675/14/logo2.png?v=145"
                       alt="Công ty TNHH Máy Văn Phòng Siêu Việt"
                       className="w-32"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
 
@@ -24,52 +25,52 @@ const Footer = () => {
                 <div className="footer-menu">
                   <ul className="flex flex-wrap justify-end gap-4 text-sm font-medium text-gray-700">
                     <li>
-                      <a
+                      <Link
                         href="/"
                         className="hover:text-blue-500 transition-colors duration-300"
                       >
                         Trang chủ
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="/collections/all"
                         className="hover:text-blue-500 transition-colors duration-300"
                       >
                         Sản phẩm
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="/blogs/news"
                         className="hover:text-blue-500 transition-colors duration-300"
                       >
                         Cho thuê máy photocopy
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="/blogs/news"
                         className="hover:text-blue-500 transition-colors duration-300"
                       >
                         Sửa máy photocopy
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="/pages/about-us"
                         className="hover:text-blue-500 transition-colors duration-300"
                       >
                         Giới thiệu
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="/pages/lien-he"
                         className="hover:text-blue-500 transition-colors duration-300"
                       >
                         Liên hệ
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -104,34 +105,34 @@ const Footer = () => {
                   <div className="widget-body">
                     <ul>
                       <li>
-                        <a className="location" href="javascript:;">
+                        <Link className="location" href="javascript:;">
                           <span className="address">Địa chỉ:</span>SỐ 19/38, TỔ
                           22, KHU PHỐ 3, PHƯỜNG TAM HÒA, TP. BIÊN HÒA, TỈNH ĐỒNG
                           NAI
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           className="phone"
                           href="tel:0937801309 - 0931533544 - 0251 6 290909"
                         >
                           <span>Điện thoại: </span> 0937.801.309 - 0931533544 -
                           0251 6 290909
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="mobile" href="0931206209">
+                        <Link className="mobile" href="0931206209">
                           <span>Di động: </span>
                           0931.206.209
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           className="email"
                           href="mailto:mayvanphongsieuviet@gmail.com"
                         >
                           <span>Email:</span>mayvanphongsieuviet@gmail.com
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -150,23 +151,23 @@ const Footer = () => {
                   <div className="widget-body">
                     <ul>
                       <li>
-                        <a href="/">Trang chủ</a>
+                        <Link href="/">Trang chủ</Link>
                       </li>
 
                       <li>
-                        <a href="/collections/all">Sản phẩm</a>
+                        <Link href="/collections/all">Sản phẩm</Link>
                       </li>
 
                       <li>
-                        <a href="/blogs/news">Cho thuê máy photocopy</a>
+                        <Link href="/blogs/news">Cho thuê máy photocopy</Link>
                       </li>
 
                       <li>
-                        <a href="/blogs/news">Sửa máy photocopy</a>
+                        <Link href="/blogs/news">Sửa máy photocopy</Link>
                       </li>
 
                       <li>
-                        <a href="/pages/about-us">Giới thiệu</a>
+                        <Link href="/pages/about-us">Giới thiệu</Link>
                       </li>
                     </ul>
                   </div>
@@ -185,23 +186,23 @@ const Footer = () => {
                   <div className="widget-body">
                     <ul>
                       <li>
-                        <a href="/">Trang chủ</a>
+                        <Link href="/">Trang chủ</Link>
                       </li>
 
                       <li>
-                        <a href="/collections/all">Sản phẩm</a>
+                        <Link href="/collections/all">Sản phẩm</Link>
                       </li>
 
                       <li>
-                        <a href="/blogs/news">Cho thuê máy photocopy</a>
+                        <Link href="/blogs/news">Cho thuê máy photocopy</Link>
                       </li>
 
                       <li>
-                        <a href="/blogs/news">Sửa máy photocopy</a>
+                        <Link href="/blogs/news">Sửa máy photocopy</Link>
                       </li>
 
                       <li>
-                        <a href="/pages/about-us">Giới thiệu</a>
+                        <Link href="/pages/about-us">Giới thiệu</Link>
                       </li>
                     </ul>
                   </div>
@@ -220,23 +221,23 @@ const Footer = () => {
                   <div className="widget-body">
                     <ul>
                       <li>
-                        <a href="/">Trang chủ</a>
+                        <Link href="/">Trang chủ</Link>
                       </li>
 
                       <li>
-                        <a href="/collections/all">Sản phẩm</a>
+                        <Link href="/collections/all">Sản phẩm</Link>
                       </li>
 
                       <li>
-                        <a href="/blogs/news">Cho thuê máy photocopy</a>
+                        <Link href="/blogs/news">Cho thuê máy photocopy</Link>
                       </li>
 
                       <li>
-                        <a href="/blogs/news">Sửa máy photocopy</a>
+                        <Link href="/blogs/news">Sửa máy photocopy</Link>
                       </li>
 
                       <li>
-                        <a href="/pages/about-us">Giới thiệu</a>
+                        <Link href="/pages/about-us">Giới thiệu</Link>
                       </li>
                     </ul>
                   </div>
@@ -256,36 +257,36 @@ const Footer = () => {
                     <div className="footer-social">
                       <ul>
                         <li>
-                          <a
+                          <Link
                             className="facebook"
                             href="https://www.facebook.com/profile.php?id=100005151195409"
                           >
                             <i className="fa fa-facebook"></i>
-                          </a>
+                          </Link>
                         </li>
 
                         <li>
-                          <a className="pinterest" href="#">
+                          <Link className="pinterest" href="#">
                             <i className="fa fa-pinterest-p"></i>
-                          </a>
+                          </Link>
                         </li>
 
                         <li>
-                          <a className="vk" href="#">
+                          <Link className="vk" href="#">
                             <i className="fa fa-vk"></i>
-                          </a>
+                          </Link>
                         </li>
 
                         <li>
-                          <a className="twitter" href="#">
+                          <Link className="twitter" href="#">
                             <i className="fa fa-twitter"></i>
-                          </a>
+                          </Link>
                         </li>
 
                         <li>
-                          <a className="google-plus" href="#">
+                          <Link className="google-plus" href="#">
                             <i className="fa fa-google-plus"></i>
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -319,12 +320,12 @@ const Footer = () => {
                 <div className="col-sm-12">
                   <div className="footer-coppyright">
                     Copyright &copy; 2025 công ty tnhh máy văn phòng siêu việt.{' '}
-                    <a
+                    <Link
                       target="_blank"
                       href="https://www.haravan.com/?utm_campaign=poweredby&utm_medium=haravan&utm_source=onlinestore"
                     >
                       Powered by Haravan
-                    </a>
+                    </Link>
                     .
                   </div>
                 </div>

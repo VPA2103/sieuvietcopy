@@ -1,9 +1,10 @@
 'use client'
 import { useEffect } from 'react'
-import Swiper, { Navigation, Pagination, Autoplay } from 'swiper'
+import Swiper from 'swiper'
 import 'swiper/swiper-bundle.css'
 import '../app/trang-chu/trang-chu.css'
 import '../app/trang-chu/trang-chu'
+import Link from 'next/link'
 // import Swiper from 'swiper';
 
 export default function MainPage() {
@@ -45,529 +46,529 @@ export default function MainPage() {
               <ul className="tree-menu ">
                 <li className=" has-child">
                   <span></span>
-                  <a
+                  <Link
                     className="dropdown-toggle has-category parent "
                     href="/collections/may-photocopy-den-trang"
                     title="Máy Photocopy/Thuê Máy"
                     target="_self"
                   >
                     <span className="">Máy Photocopy/Thuê Máy</span>
-                  </a>
+                  </Link>
                   <ul className="sc2" role="menu">
                     <li>
                       <span></span>
-                      <a
+                      <Link
                         href="/collections/may-photocopy-mau-9"
                         title="Máy Photocopy Màu"
                       >
                         Máy Photocopy Màu
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a
+                      <Link
                         href="/collections/may-photocopy-den-trang"
                         title="Máy Photocopy đen"
                       >
                         Máy Photocopy đen
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a
+                      <Link
                         href="/collections/may-photocopy-moi-100"
                         title="Máy Photocopy Mới"
                       >
                         Máy Photocopy Mới
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a
+                      <Link
                         href="/collections/thue-may-photocopy-1"
                         title="Thuê Máy Photocopy"
                       >
                         Thuê Máy Photocopy
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
 
                 <li className=" has-child">
                   <span></span>
-                  <a
+                  <Link
                     className="dropdown-toggle has-category parent "
                     href="/collections/drum-roi-opc"
                     title="DRUM/GẠT/TỪ/SẠC"
                     target="_self"
                   >
                     <span className="">DRUM/GẠT/TỪ/SẠC</span>
-                  </a>
+                  </Link>
                   <ul className="sc2" role="menu">
                     <li>
                       <span></span>
-                      <a href="/collections/drum-roi-opc" title="DRUM RỜI OPC">
+                      <Link href="/collections/drum-roi-opc" title="DRUM RỜI OPC">
                         DRUM RỜI OPC
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/collections/gat-drum" title="GẠT DRUM">
+                      <Link href="/collections/gat-drum" title="GẠT DRUM">
                         GẠT DRUM
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/collections/tu" title="TỪ">
+                      <Link href="/collections/tu" title="TỪ">
                         TỪ
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/collections/sac" title="SẠC">
+                      <Link href="/collections/sac" title="SẠC">
                         SẠC
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
 
                 <li className=" has-child">
                   <span></span>
-                  <a
+                  <Link
                     className="dropdown-toggle has-category parent "
                     href="/collections/hop-muc-chinh-hang"
                     title="Mực/Khối Drum/Khối Sấy"
                     target="_self"
                   >
                     <span className="">Mực/Khối Drum/Khối Sấy</span>
-                  </a>
+                  </Link>
                   <ul className="sc2" role="menu">
                     <li>
                       <span></span>
-                      <a
+                      <Link
                         href="/collections/hop-muc-chinh-hang"
                         title="Hộp Mực Chính Hãng"
                       >
                         Hộp Mực Chính Hãng
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a
+                      <Link
                         href="/collections/hop-muc-tuong-thich"
                         title="Hộp Mực Tương Thích"
                       >
                         Hộp Mực Tương Thích
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/collections/muc-kg" title="Mực Kg">
+                      <Link href="/collections/muc-kg" title="Mực Kg">
                         Mực Kg
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a
+                      <Link
                         href="/collections/khoi-drum-chinh-hang"
                         title="Khối Drum Chính Hãng"
                       >
                         Khối Drum Chính Hãng
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a
+                      <Link
                         href="/collections/khoi-drum-tuong-thich"
                         title="Khối Drum Tương Thích"
                       >
                         Khối Drum Tương Thích
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a
+                      <Link
                         href="/collections/khoi-say-tuong-thich"
                         title="Khối Sấy Tương Thích"
                       >
                         Khối Sấy Tương Thích
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a
+                      <Link
                         href="/collections/khoi-say-chinh-hang"
                         title="Khối Sấy Chính Hãng"
                       >
                         Khối Sấy Chính Hãng
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
 
                 <li className=" has-child">
                   <span></span>
-                  <a
+                  <Link
                     className="dropdown-toggle has-category parent "
                     href="/collections/rulo-say"
                     title="RULO SẤY/ÉP/FILM"
                     target="_self"
                   >
                     <span className="">RULO SẤY/ÉP/FILM</span>
-                  </a>
+                  </Link>
                   <ul className="sc2" role="menu">
                     <li>
                       <span></span>
-                      <a
+                      <Link
                         href="/collections/rulo-say"
                         title="Rulo Sấy ( Rulo Trên )"
                       >
                         Rulo Sấy ( Rulo Trên )
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/collections/rulo-ep" title="Rulo Ép ( Dưới )">
+                      <Link href="/collections/rulo-ep" title="Rulo Ép ( Dưới )">
                         Rulo Ép ( Dưới )
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/collections/film-say" title="Film Sấy">
+                      <Link href="/collections/film-say" title="Film Sấy">
                         Film Sấy
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
 
                 <li className=" has-child">
                   <span></span>
-                  <a
+                  <Link
                     className="dropdown-toggle has-category parent "
                     href="/collections/belt-may-mau"
                     title="Belt/Băng Tải/Gạt Belt"
                     target="_self"
                   >
                     <span className="">Belt/Băng Tải/Gạt Belt</span>
-                  </a>
+                  </Link>
                   <ul className="sc2" role="menu">
                     <li>
                       <span></span>
-                      <a href="/collections/belt-may-mau" title="Belt Máy Màu">
+                      <Link href="/collections/belt-may-mau" title="Belt Máy Màu">
                         Belt Máy Màu
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/collections/bang-tai" title="Băng Tải Máy đen">
+                      <Link href="/collections/bang-tai" title="Băng Tải Máy đen">
                         Băng Tải Máy đen
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/collections/gat-belt" title="Gạt Belt">
+                      <Link href="/collections/gat-belt" title="Gạt Belt">
                         Gạt Belt
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
 
                 <li className=" has-child">
                   <span></span>
-                  <a
+                  <Link
                     className="dropdown-toggle has-category parent "
                     href="/collections/banh-xe"
                     title="Thermittor/Webdau/Bánh Xe"
                     target="_self"
                   >
                     <span className="">Thermittor/Webdau/Bánh Xe</span>
-                  </a>
+                  </Link>
                   <ul className="sc2" role="menu">
                     <li>
                       <span></span>
-                      <a href="/collections/thermittor" title="Thermittor">
+                      <Link href="/collections/thermittor" title="Thermittor">
                         Thermittor
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/collections/web-dau" title="Web Dầu">
+                      <Link href="/collections/web-dau" title="Web Dầu">
                         Web Dầu
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/collections/banh-xe" title="Bánh Xe">
+                      <Link href="/collections/banh-xe" title="Bánh Xe">
                         Bánh Xe
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a
+                      <Link
                         href="/collections/thue-may-photocopy-1"
                         title="Bộ 3 bánh xe ADF 60080/7080/7000"
                       >
                         Bộ 3 bánh xe ADF 60080/7080/7000
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
 
                 <li className=" has-child">
                   <span></span>
-                  <a
+                  <Link
                     className="dropdown-toggle has-category parent "
                     href="/collections/board"
                     title="Board/Motor/Đồng Bộ/Nhông"
                     target="_self"
                   >
                     <span className="">Board/Motor/Đồng Bộ/Nhông</span>
-                  </a>
+                  </Link>
                   <ul className="sc2" role="menu">
                     <li>
                       <span></span>
-                      <a href="/collections/board" title="Board Mạch">
+                      <Link href="/collections/board" title="Board Mạch">
                         Board Mạch
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/collections/motor" title="Motor">
+                      <Link href="/collections/motor" title="Motor">
                         Motor
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/collections/dong-bo" title="Đồng Bộ">
+                      <Link href="/collections/dong-bo" title="Đồng Bộ">
                         Đồng Bộ
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/collections/nhong" title="Nhông">
+                      <Link href="/collections/nhong" title="Nhông">
                         Nhông
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
 
                 <li className=" has-child">
                   <span></span>
-                  <a
+                  <Link
                     className="dropdown-toggle has-category parent "
                     href="/collections/chip-muc"
                     title="Chíp Mực/Chíp Drum"
                     target="_self"
                   >
                     <span className="">Chíp Mực/Chíp Drum</span>
-                  </a>
+                  </Link>
                   <ul className="sc2" role="menu">
                     <li>
                       <span></span>
-                      <a href="/collections/chip-muc" title="Chíp Mực">
+                      <Link href="/collections/chip-muc" title="Chíp Mực">
                         Chíp Mực
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/collections/chip-drum" title="Chíp Drum">
+                      <Link href="/collections/chip-drum" title="Chíp Drum">
                         Chíp Drum
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
 
                 <li className=" has-child">
                   <span></span>
-                  <a
+                  <Link
                     className="dropdown-toggle has-category parent "
                     href="/collections/den"
                     title="Đèn/Cảm Ứng/Cáp"
                     target="_self"
                   >
                     <span className="">Đèn/Cảm Ứng/Cáp</span>
-                  </a>
+                  </Link>
                   <ul className="sc2" role="menu">
                     <li>
                       <span></span>
-                      <a href="/collections/den" title="Đèn Sấy - LPH">
+                      <Link href="/collections/den" title="Đèn Sấy - LPH">
                         Đèn Sấy - LPH
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/collections/cam-ung" title="Cảm Ứng MH">
+                      <Link href="/collections/cam-ung" title="Cảm Ứng MH">
                         Cảm Ứng MH
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/collections/cap" title="Cáp Kết Nối">
+                      <Link href="/collections/cap" title="Cáp Kết Nối">
                         Cáp Kết Nối
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
 
                 <li className=" has-child">
                   <span></span>
-                  <a
+                  <Link
                     className="dropdown-toggle has-category parent "
                     href="/collections/vo-hop-muc"
                     title="Vỏ Mực/Mực Thải/Khay Hứng"
                     target="_self"
                   >
                     <span className="">Vỏ Mực/Mực Thải/Khay Hứng</span>
-                  </a>
+                  </Link>
                   <ul className="sc2" role="menu">
                     <li>
                       <span></span>
-                      <a href="/collections/vo-hop-muc" title="Vỏ Hộp Mực">
+                      <Link href="/collections/vo-hop-muc" title="Vỏ Hộp Mực">
                         Vỏ Hộp Mực
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/collections/hop-muc-thai" title="Hộp Mực Thải">
+                      <Link href="/collections/hop-muc-thai" title="Hộp Mực Thải">
                         Hộp Mực Thải
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a
+                      <Link
                         href="/collections/khay-hung-giay"
                         title="Khay Hứng Giấy"
                       >
                         Khay Hứng Giấy
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
 
                 <li className=" has-child">
                   <span></span>
-                  <a
+                  <Link
                     className="dropdown-toggle has-category parent "
                     href="/collections/khoi-drum-da-qua-su-dung"
                     title="Hàng 1 Nước Drum/Sấy"
                     target="_self"
                   >
                     <span className="">Hàng 1 Nước Drum/Sấy</span>
-                  </a>
+                  </Link>
                   <ul className="sc2" role="menu">
                     <li>
                       <span></span>
-                      <a
+                      <Link
                         href="/collections/khoi-drum-da-qua-su-dung"
                         title="Khối Drum Đqsd"
                       >
                         Khối Drum Đqsd
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a
+                      <Link
                         href="/collections/khoi-say-da-qua-su-dung"
                         title="Khối Sấy Đqsd"
                       >
                         Khối Sấy Đqsd
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
 
                 <li className=" has-child">
                   <span></span>
-                  <a
+                  <Link
                     className="dropdown-toggle has-category parent "
                     href="/"
                     title="Cụm Adf/Cần Sensor/khung nhựa"
                     target="_self"
                   >
                     <span className="">Cụm Adf/Cần Sensor/khung nhựa</span>
-                  </a>
+                  </Link>
                   <ul className="sc2" role="menu">
                     <li>
                       <span></span>
-                      <a href="/" title="Cụm Adf">
+                      <Link href="/" title="Cụm Adf">
                         Cụm Adf
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/" title="Cần Sensor">
+                      <Link href="/" title="Cần Sensor">
                         Cần Sensor
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
 
                 <li className=" has-child">
                   <span></span>
-                  <a
+                  <Link
                     className="dropdown-toggle has-category parent "
                     href="/"
                     title="Linh Kiện Khác/Túi/Chai/Carton"
                     target="_self"
                   >
                     <span className="">Linh Kiện Khác/Túi/Chai/Carton</span>
-                  </a>
+                  </Link>
                   <ul className="sc2" role="menu">
                     <li>
                       <span></span>
-                      <a href="/" title="Linh Kiện Photo khác">
+                      <Link href="/" title="Linh Kiện Photo khác">
                         Linh Kiện Photo khác
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/" title="Túi Chiết Mực">
+                      <Link href="/" title="Túi Chiết Mực">
                         Túi Chiết Mực
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/" title="Chai Đựng Mực">
+                      <Link href="/" title="Chai Đựng Mực">
                         Chai Đựng Mực
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
                       <span></span>
-                      <a href="/" title="Thùng Carton">
+                      <Link href="/" title="Thùng Carton">
                         Thùng Carton
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
@@ -586,40 +587,40 @@ export default function MainPage() {
                   <div className="swiper mySwiper">
                     <div className="swiper-wrapper">
                       <div className="swiper-slide">
-                        <a href="https://mayvanphongsieuviet.com/collections/thue-may-photocopy-1">
+                        <Link href="https://mayvanphongsieuviet.com/collections/thue-may-photocopy-1">
                           <img
                             src="//theme.hstatic.net/200000202353/1000633675/14/banner_silder_1.jpg?v=145"
                             alt="Banner 1"
                             className="w-full rounded-lg"
                           />
-                        </a>
+                        </Link>
                       </div>
                       <div className="swiper-slide">
-                        <a href="https://mayvanphongsieuviet.com/collections/may-photocopy-den-trang">
+                        <Link href="https://mayvanphongsieuviet.com/collections/may-photocopy-den-trang">
                           <img
                             src="//theme.hstatic.net/200000202353/1000633675/14/banner_silder_2.jpg?v=145"
                             alt="Banner 2"
                             className="w-full rounded-lg"
                           />
-                        </a>
+                        </Link>
                       </div>
                       <div className="swiper-slide">
-                        <a href="https://mayvanphongsieuviet.com/collections/hop-muc-chinh-hang">
+                        <Link href="https://mayvanphongsieuviet.com/collections/hop-muc-chinh-hang">
                           <img
                             src="//theme.hstatic.net/200000202353/1000633675/14/banner_silder_3.jpg?v=145"
                             alt="Banner 3"
                             className="w-full rounded-lg"
                           />
-                        </a>
+                        </Link>
                       </div>
                       <div className="swiper-slide">
-                        <a href="/collections/all">
+                        <Link href="/collections/all">
                           <img
                             src="//theme.hstatic.net/200000202353/1000633675/14/banner_silder_4.jpg?v=145"
                             alt="Banner 4"
                             className="w-full rounded-lg"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="swiper-button-next text-gray-800"></div>
