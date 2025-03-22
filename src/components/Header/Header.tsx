@@ -13,7 +13,6 @@ const Header = () => {
   }
 
   return (
-    <>
       <header className='header'>
         <div className='top-header bg-gray-100 py-3 border-b border-gray-300'>
           <div className='container mx-auto flex justify-between items-center px-4'>
@@ -247,7 +246,6 @@ const Header = () => {
           </div>
         </div>
       </header>
-    </>
   )
 }
 

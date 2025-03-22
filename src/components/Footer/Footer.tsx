@@ -4,7 +4,6 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <>
       <footer id='footer2'>
         <div className='footer-top'>
           <div className='container'>
@@ -334,7 +333,6 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-    </>
   )
 }
 export default Footer
