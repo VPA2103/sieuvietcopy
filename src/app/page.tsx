@@ -1,15 +1,14 @@
 'use client'
 
-import dynamic from 'next/dynamic'
+import SwiperClient from './SwiperClient'
+import React from 'react'
+import './globals.css'
 
-const SwiperComponent = dynamic(() => import('./SwiperComponent'), {
-  ssr: false,
-})
 
 export default function MainPage() {
   return (
     <div>
-      <SwiperComponent />
+      <SwiperClient />
     </div>
   )
 }

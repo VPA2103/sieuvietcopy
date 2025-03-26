@@ -2,29 +2,40 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "homepage": "https://github.com/VPA2103/sieuvietcopy#readme",
+  "bugs": {
+    "url": "https://github.com/VPA2103/sieuvietcopy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VPA2103/sieuvietcopy.git"
+  },
+  "license": "ISC",
+  "author": "",
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
-    "@tailwindcss/vite": "^4.0.15",
-    "next": "15.2.3",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "next": "^13.4.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "swiper": "^11.2.6"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "15.2.3",
-    "tailwindcss": "^4.0.15",
-    "typescript": "^5"
+    "@tailwindcss/postcss": "^4.0.15",
+    "@types/node": "^20.17.27",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8.51.0",
+    "eslint-config-next": "^13.4.12",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.1.6"
   }
 }

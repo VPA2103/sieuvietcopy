@@ -1,95 +1,139 @@
 @import '@fortawesome/fontawesome-free/css/all.css';
 
 
-
-
-
-
-/* Tổng quan */
-#contactFormWrapper,
-#col-right {
-  margin-bottom: 20px; /* Khoảng cách dưới giữa các phần */
-}
-
-#contactFormWrapper {
-  padding-right: 20px; /* Tạo khoảng cách bên phải giữa form và thông tin liên hệ */
-}
-
-#col-right {
-  padding-left: 20px; /* Tạo khoảng cách bên trái giữa thông tin liên hệ và form */
-}
-
-/* Tiêu đề */
-.title-contact,
-.name-company {
-  font-size: 20px;
-  font-weight: bold;
+/* General Container Styles */
+#page {
+  background-color: #f9f9f9;
+  font-family: 'Roboto', sans-serif;
   color: #333;
+  padding: 20px;
+}
+
+#layout-page {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.page-heading {
+  text-align: center;
+  color: #0056b3;
+  margin-bottom: 20px;
+}
+
+.page-heading-title {
+  font-size: 28px;
+  font-weight: bold;
+  border-bottom: 2px solid #0056b3;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Google Maps Styles */
+.content-contact iframe {
+  border: 0;
+  border-radius: 8px;
+}
+
+/* Flexbox Row */
+.row.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Contact Form */
+.col-left {
+  border-right: 2px solid #ddd;
+  padding-right: 20px;
+}
+
+.title-contact {
+  font-size: 22px;
+  color: #0066cc;
   margin-bottom: 10px;
 }
 
-/* Đường kẻ ngang */
-.line-left,
-.line-right {
+.line-left {
   border: 0;
   height: 2px;
-  background: #007bff; /* Màu xanh nổi bật */
-  margin: 10px 0 20px 0;
+  background: #0066cc;
+  width: 50px;
+  margin: 10px 0;
 }
 
-/* Form liên hệ */
 .contact-form .form-group {
-  margin-bottom: 15px; /* Khoảng cách giữa các trường input */
+  margin-bottom: 15px;
 }
 
-.contact-form .form-control {
+.contact-form input,
+.contact-form textarea {
   width: 100%;
   padding: 10px;
-  font-size: 16px;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
-.contact-form .form-control:focus {
-  border-color: #007bff;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-}
-
 .contact-form .btn-primary {
-  background-color: #007bff;
+  background-color: #0056b3;
   border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 4px;
   color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .contact-form .btn-primary:hover {
-  background-color: #0056b3;
+  background-color: #003d80;
 }
 
-/* Thông tin liên hệ */
-.info-address {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+/* Contact Info Section */
+#col-right {
+  padding-left: 20px;
+}
+
+.line-right {
+  border: 0;
+  height: 2px;
+  background: #ff6600;
+  width: 50px;
+  margin: 10px 0;
+}
+
+.name-company {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
 }
 
 .info-address li {
+  list-style: none;
   display: flex;
   align-items: center;
-  margin-bottom: 10px; /* Khoảng cách giữa các dòng thông tin */
-  font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .info-address li i {
-  font-size: 18px;
-  color: #007bff; /* Màu xanh nổi bật cho icon */
   margin-right: 10px;
+  color: #0056b3;
 }
 
-.info-address li span {
-  color: #555;
+/* Responsive Design */
+@media (max-width: 768px) {
+  .row.flex {
+    flex-direction: column;
+  }
+
+  .col-left {
+    border-right: none;
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  #col-right {
+    padding-left: 0;
+  }
 }
