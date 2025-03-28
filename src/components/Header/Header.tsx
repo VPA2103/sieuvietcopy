@@ -122,9 +122,9 @@ export default function Header() {
       </div>
 
       {/* Main Header with Logo and Navigation */}
-      <div className="w-full bg-gradient-to-r from-blue-800 to-blue-900">
+      <div className="w-full bg-gradient-to-r  bg-white">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between py-4 bg-slate-900">
+          <div className="flex items-center justify-between py-4 bg-white">
             {/* Logo */}
             <div className="logo-container">
               <a href="https://mayvanphongsieuviet.com" className="block">
@@ -195,7 +195,7 @@ export default function Header() {
                       href={item.href}
                       className="
                   block 
-                  text-gray-300 
+                  text-black
                   hover:text-white 
                   hover:bg-slate-800 
                   transition-colors 
